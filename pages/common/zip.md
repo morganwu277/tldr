@@ -21,3 +21,6 @@
 - Delete files from an existing zip file:
 
 `zip -d {{compressed.zip}} "{{foo/*.tmp}}"`
+
+- Show files in a zipped file
+`zip -sf {{compressed.zip}}`
